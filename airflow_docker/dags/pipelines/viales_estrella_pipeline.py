@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 import logging
 
-from etls.etl_viales_estrella import extract_viales, load_viales
+from airflow-docker.dags.etls.etl_viales_estrella import extract_viales, load_viales
 logger = logging.getLogger("airflow.task")
 
 

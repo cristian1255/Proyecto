@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+# Procesamiento de datos y scraping
+pandas
+lxml
+beautifulsoup4
+html5lib
+
+# Conectividad con Bases de Datos
+apache-airflow-providers-postgres
+=======
+# Procesamiento de datos y scraping
+pandas
+lxml
+beautifulsoup4
+html5lib
+
+# Conectividad con Bases de Datos
+apache-airflow-providers-postgres
+>>>>>>> 65d3523 (primer commit airflow)
+psycopg2-binary

@@ -1,5 +1,9 @@
 import logging
+import sys
+import os
 
+# Agrega el directorio dags al path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from etls.etl_viales_estrella import extract_viales, load_viales
 
 logger = logging.getLogger("airflow.task")
